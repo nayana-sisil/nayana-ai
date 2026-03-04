@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="absolute bottom-20 left-10 w-96 h-96 rounded-full bg-accent/5 blur-3xl animate-pulse-glow" style={{ animationDelay: "1.5s" }} />
 
       <div className="container mx-auto px-4 pt-20 relative z-10">
-        <div className="flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-20">
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12 lg:gap-20">
           {/* Text */}
           <motion.div
             className="flex-1 text-center lg:text-left"
