@@ -13,10 +13,11 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      {/* The basename prop is crucial for GitHub Pages subfolders */}
+      <BrowserRouter basename="/nayana-ai">
         <Routes>
           <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          {/* Catch-all route for 404s */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
