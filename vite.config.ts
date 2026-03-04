@@ -5,8 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // Replace 'nayana-ai' with your exact repository name
-  base: "/nayana-ai/", 
+  // Using an empty string or "./" makes all asset paths relative.
+  // This is the "fail-safe" fix for GitHub Pages blank screens.
+  base: "", 
   server: {
     host: "::",
     port: 8080,
