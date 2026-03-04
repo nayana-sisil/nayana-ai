@@ -6,14 +6,13 @@ import profileImg from "@/assets/profile.png";
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center relative overflow-hidden">
-      {/* Background effects */}
       <div className="absolute inset-0 bg-gradient-hero" />
       <div className="absolute top-20 right-10 w-72 h-72 rounded-full bg-primary/5 blur-3xl animate-pulse-glow" />
       <div className="absolute bottom-20 left-10 w-96 h-96 rounded-full bg-accent/5 blur-3xl animate-pulse-glow" style={{ animationDelay: "1.5s" }} />
 
       <div className="container mx-auto px-4 pt-20 relative z-10">
         <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-12 lg:gap-16">
-          {/* Text */}
+
           <motion.div
             className="flex-1 max-w-2xl text-center lg:text-left"
             initial={{ opacity: 0, y: 30 }}
@@ -28,13 +27,15 @@ const Hero = () => {
             >
               Data Science &amp; Machine Learning
             </motion.p>
+
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              Hi, I'm{" "}
-              <span className="text-gradient">Nayana Sisil</span>
+              Hi, I'm <span className="text-gradient">Nayana Sisil</span>
             </h1>
+
             <p className="text-lg sm:text-xl text-muted-foreground mb-4 max-w-xl mx-auto lg:mx-0">
               Aspiring Machine Learning Engineer &amp; Data Science Undergraduate
             </p>
+
             <p className="text-sm text-muted-foreground mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed">
               Building production ready ML pipelines · Passionate about imbalanced classification, model interpretability &amp; business impact AI · Seeking ML/AI internships
             </p>
@@ -71,7 +72,6 @@ const Hero = () => {
             </div>
           </motion.div>
 
-          {/* Photo */}
           <motion.div
             className="flex-shrink-0 lg:w-72"
             initial={{ opacity: 0, scale: 0.8 }}
@@ -84,13 +84,13 @@ const Hero = () => {
                 src={profileImg}
                 alt="Nayana Sisil - Machine Learning Engineer"
                 className="relative w-48 h-48 sm:w-56 sm:h-56 lg:w-64 lg:h-64 rounded-full object-cover border-4 border-card shadow-2xl"
-                style={{ objectPosition: '40% 20%' }}
+                style={{ objectPosition: "40% 20%" }}
               />
             </div>
           </motion.div>
+
         </div>
 
-        {/* Scroll indicator */}
         <motion.div
           className="absolute bottom-8 left-1/2 -translate-x-1/2"
           animate={{ y: [0, 8, 0] }}
