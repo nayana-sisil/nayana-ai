@@ -7,6 +7,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write        # 👈 THIS is missing - needed to push to gh-pages
     steps:
       - uses: actions/checkout@v4
 
