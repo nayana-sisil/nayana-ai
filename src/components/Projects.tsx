@@ -4,20 +4,20 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "Industrial Predictive Maintenance System",
+    title: "Industrial Predictive Maintenance System Cost Benefit Validated",
     result: "68% downtime reduction, LKR 1.36M annual savings",
     description:
-      "ML system for predictive maintenance identifying equipment failures before they occur. Tackled severe class imbalance (96.6% : 3.4%) using SMOTE & Tomek Links with ensemble methods. Includes quantitative cost-benefit analysis.",
+      "ML system for predictive maintenance identifying equipment failures before they occur. Tackled severe class imbalance (96.6% : 3.4%) using SMOTE & Tomek Links with ensemble methods. Includes quantitative cost benefit analysis.",
     tech: ["Random Forest", "Bagging", "SMOTE", "Tomek Links", "Feature Engineering", "Hugging Face"],
     demo: "https://huggingface.co/spaces/nayanasisil2700/predictive-maintenance",
     github: "https://github.com/nayana-sisil/predictive-maintenance-ml",
     color: "from-blue-500/10 to-cyan-500/10",
   },
   {
-    title: "Predictive Customer Churn Model",
+    title: "LightGBM Churn Intelligence System with SHAP Interpretability",
     result: "96.4% ROC AUC, 84.1% F2, 88.8% Recall — LKR 115M+ revenue protection",
     description:
-      "End-to-end churn prediction with LightGBM, advanced preprocessing (PowerTransformer, KNN imputation), SHAP interpretability, and production Streamlit dashboard for real-time predictions.",
+      "End to end churn prediction with LightGBM, advanced preprocessing (PowerTransformer, KNN imputation), SHAP interpretability, and production Streamlit dashboard for real time predictions.",
     tech: ["LightGBM", "SHAP", "Streamlit", "Hyperparameter Tuning", "Imbalanced Data"],
     demo: "https://predictive-customer-churn-ecommerce-retention.streamlit.app/",
     github: "https://github.com/nayana-sisil/predictive-customer-churn-ecommerce-retention",
@@ -25,16 +25,16 @@ const projects = [
   },
   {
     title: "AI Semantic Book Recommender",
-    result: "NLP-powered semantic search with embeddings",
+    result: "NLP powered semantic search with embeddings",
     description:
       "Book recommendation system using NLP and vector embeddings for semantic similarity search. Built with Gradio on Hugging Face Spaces for interactive exploration.",
     tech: ["NLP", "Embeddings", "Semantic Search", "Gradio", "Hugging Face"],
-    demo: "https://huggingface.co/spaces/nayanasisil2700/book-recommender",
-    github: "https://github.com/nayana-sisil/semantic-book-recommender",
+    demo: "https://huggingface.co/spaces/nayanasisil2700/my-book-recommender",
+    github: "https://github.com/nayana-sisil/semantic_book_recommender",
     color: "from-emerald-500/10 to-teal-500/10",
   },
   {
-    title: "Breast Cancer Diagnosis ML App",
+    title: "Breast Cancer Diagnosis ML Classifier",
     result: "Logistic Regression with interactive radar visualizations",
     description:
       "Machine learning application for breast cancer diagnosis with interactive radar charts for feature visualization. Deployed on Hugging Face Spaces.",
@@ -44,17 +44,17 @@ const projects = [
     color: "from-rose-500/10 to-orange-500/10",
   },
   {
-    title: "CineMatrix AI — Movie Success Predictor",
+    title: "CineMatrix AI Movie Success Predictor",
     result: "Imbalanced data handling with cyberpunk dashboard",
     description:
-      "Group project predicting movie success using ML with custom imbalanced data techniques. Features a cyberpunk-themed Streamlit dashboard for interactive analysis.",
+      "Group project predicting movie success using ML with custom imbalanced data techniques. Features a cyberpunk themed Streamlit dashboard for interactive analysis.",
     tech: ["Ensemble Methods", "Imbalanced Data", "Streamlit", "Feature Engineering"],
     demo: "https://cinematrix-ai.streamlit.app/",
     github: "https://github.com/nayana-sisil/cinematrix-ai",
     color: "from-violet-500/10 to-indigo-500/10",
   },
   {
-    title: "Global Data Job Market Analysis",
+    title: "Global Data Labour Market Signal Extraction & Skill Demand Analysis",
     result: "1,000+ job postings analyzed for skill & salary trends",
     description:
       "Comprehensive analysis of global data job market identifying top in-demand skills, salary patterns, and 15+ actionable recommendations through data visualization.",
