@@ -12,10 +12,10 @@ const Hero = () => {
       <div className="absolute bottom-20 left-10 w-96 h-96 rounded-full bg-accent/5 blur-3xl animate-pulse-glow" style={{ animationDelay: "1.5s" }} />
 
       <div className="container mx-auto px-4 pt-20 relative z-10">
-        <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12 lg:gap-20">
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-12 lg:gap-16">
           {/* Text */}
           <motion.div
-            className="flex-1 text-center lg:text-left"
+            className="flex-1 max-w-2xl text-center lg:text-left"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
@@ -52,7 +52,7 @@ const Hero = () => {
             </div>
 
             <div className="flex items-center justify-center lg:justify-start gap-3">
-              <a
+              
                 href="https://www.linkedin.com/in/nayanasisil"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -60,7 +60,7 @@ const Hero = () => {
               >
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a
+              
                 href="https://github.com/nayana-sisil"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -73,7 +73,7 @@ const Hero = () => {
 
           {/* Photo */}
           <motion.div
-            className="flex-shrink-0"
+            className="flex-shrink-0 lg:w-72"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7, delay: 0.3 }}
