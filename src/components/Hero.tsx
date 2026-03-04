@@ -44,7 +44,7 @@ const Hero = () => {
                 <a href="#projects">View Projects</a>
               </Button>
               <Button variant="heroOutline" size="lg" asChild>
-                <a href="/Nayana_Sisil_Resume.pdf" download>
+                <a href="/nayana-ai/Nayana_Sisil_Resume.pdf" target="_blank" rel="noopener noreferrer">
                   <Download className="h-4 w-4" />
                   Download Resume
                 </a>
