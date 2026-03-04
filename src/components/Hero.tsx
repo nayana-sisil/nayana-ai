@@ -36,7 +36,7 @@ const Hero = () => {
               Aspiring Machine Learning Engineer &amp; Data Science Undergraduate
             </p>
             <p className="text-sm text-muted-foreground mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed">
-              Building production-ready ML pipelines · Passionate about imbalanced classification, model interpretability &amp; business-impact AI · Seeking ML/AI internships
+              Building production ready ML pipelines · Passionate about imbalanced classification, model interpretability &amp; business impact AI · Seeking ML/AI internships
             </p>
 
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3 mb-8">
