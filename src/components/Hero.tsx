@@ -84,6 +84,7 @@ const Hero = () => {
                 src={profileImg}
                 alt="Nayana Sisil - Machine Learning Engineer"
                 className="relative w-48 h-48 sm:w-56 sm:h-56 lg:w-64 lg:h-64 rounded-full object-cover border-4 border-card shadow-2xl"
+                style={{ objectPosition: '40% 20%' }}
               />
             </div>
           </motion.div>
